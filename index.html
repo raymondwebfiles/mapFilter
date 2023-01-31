@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const people = [
+        //     {
+        //         name:'Raymond',
+        //         age: 25,
+        //         occupation:'Web Developer'
+        //     },
+        //     {
+        //         name:'Edylene',
+        //         age: 22,
+        //         occupation:'Office staff'
+        //     },
+        //     {
+        //         name:'Ben',
+        //         age: 30,
+        //         occupation:'Construction'
+        //     }
+        // ];
+                //mapping 
+        // const names = people.map(person =>{
+        //     return person.name
+        // })
+        // console.log(names)
+
+                //Filter
+        // const overAge = people.filter(person =>{
+        //     return person.age < 30
+        // }).map(person=>{
+        //     return person.name
+        // })
+        // console.log(overAge)
+
+        const books = [
+            {
+                name: 'Comics',
+                price: 100,
+            },
+            {
+                name: 'Syphy',
+                price: 100,
+            },
+            {
+                name: 'Horror',
+                price: 150,
+            },
+            {
+                name: 'Fiction',
+                price: 500,
+            },
+        ]
+
+        // const names = books.map(book=>{
+        //     return book.name
+        // })
+        // console.log(names)
+        // document.write(names)
+
+        const overprice = books.filter(book=>{
+            return book.price >= 100
+        })
+        console.log(overprice)
+</script>
+</body>
+</html>
